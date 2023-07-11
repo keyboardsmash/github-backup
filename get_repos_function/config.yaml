@@ -1,0 +1,15 @@
+config:
+  organization: <orgname>
+  bucket_name: <some-bucket>
+  project: <project>
+  topic: github-backups
+  secret_name: gh_api_token
+  
+  # #github-backups channel
+  slack_success_url: https://hooks.slack.com/services/<some-token>
+  
+  # #monitoring channel
+  slack_failure_url: https://hooks.slack.com/services/<some-othertoken>
+  
+  # #github-backups channel, development mode
+  # slack_failure_url: https://hooks.slack.com/services/<some-third-token>

@@ -1,0 +1,8 @@
+title: GitHub Backup Role
+description: Role used to create backups from github
+stage: GA
+includedPermissions:
+- storage.buckets.get
+- storage.objects.get
+- storage.objects.create
+- storage.objects.list
