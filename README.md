@@ -1,2 +1,2 @@
-# githb-backup
+# github-backup
 Github Backup Tool
